@@ -1,9 +1,11 @@
 body {
     display: flex;
     flex-direction: column;
+    background: #EBEBEB;
 }
 
 .header-search {
+    background: white;
     height: 0.9rem;
     color: #999;
     display: flex;
@@ -140,6 +142,7 @@ body {
     display: flex;
     height: 1.54rem;
     align-items: center;
+    background: white;
 }
 
 .banner p{
@@ -171,4 +174,67 @@ body {
     font-size: 0.24rem;
     text-align: center;
     width: 1rem;
+}
+
+.nav{
+    margin-top: 0.2rem;
+    background: white;
+    height: 3.58rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.nav div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center
+}
+
+.nav div span{
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+}
+
+.nav div:nth-child(1) span{
+    background: #55a532;
+}
+
+.nav div:nth-child(2) span{
+    background: #2cafff;
+}
+
+.nav div:nth-child(3) span{
+    background: #ebc57a;
+}
+
+.nav div:nth-child(4) span{
+    background: #4e76e1;
+}
+
+.nav div:nth-child(5) span{
+    background: #07c0f3;
+}
+
+.nav div:nth-child(6) span{
+    background: #0089ff;
+}
+
+.nav div:nth-child(7) span{
+    background: #00d249;
+}
+
+.nav div .iconfont{
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 0.05rem;
+}
+
+.nav i{
+    margin-top: 0.14rem;
+    font-size: 0.22rem ;
 }
