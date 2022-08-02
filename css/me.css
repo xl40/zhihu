@@ -136,3 +136,39 @@ body {
     background: #f76c8b;
 }
 
+.banner{
+    display: flex;
+    height: 1.54rem;
+    align-items: center;
+}
+
+.banner p{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    justify-content: center;
+
+    position: relative;
+}
+
+.banner p::after{
+    content: "";
+    width: 0.01rem;
+    height: 0.4rem;
+    background: #666666;
+    position: relative;
+    top: -0.2rem;
+    left: 0.46rem;
+}
+
+.banner b{
+    font-size: 0.28rem;
+    text-align: center;
+    width: 1rem;
+}
+
+.banner span{
+    font-size: 0.24rem;
+    text-align: center;
+    width: 1rem;
+}
