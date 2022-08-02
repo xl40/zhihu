@@ -238,3 +238,55 @@ body {
     margin-top: 0.14rem;
     font-size: 0.22rem ;
 }
+
+.sub-nav {
+    margin-top: 0.2rem;
+    background: white;
+    height: 1.85rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.sub-nav div{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center
+}
+
+.sub-nav div span{
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+}
+
+.sub-nav div .iconfont{
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 0.05rem;
+}
+
+.sub-nav i{
+    margin-top: 0.14rem;
+    font-size: 0.22rem ;
+}
+
+
+.sub-nav div:nth-child(1) span{
+    background: #55a532;
+}
+
+.sub-nav div:nth-child(2) span{
+    background: #2cafff;
+}
+
+.sub-nav div:nth-child(3) span{
+    background: #ebc57a;
+}
+
+.sub-nav div:nth-child(4) span{
+    background: #4e76e1;
+}
