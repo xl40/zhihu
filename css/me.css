@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-search {
+    height: 0.9rem;
+    color: #999;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*border: 0.01rem solid #000;*/
+}
+
+.header-search .search-box span {
+    position: absolute;
+    font-size: 0.28rem;
+}
+
+.header-search .search-box span:nth-child(2) {
+    margin-left: -0.9rem;
+    left: 50%;
+    top: 0.5rem;
+    margin-top: -0.22rem;
+}
+
+.header-search .search-box span:nth-child(3) {
+    top: 0.5rem;
+    margin-top: -0.2rem;
+    margin-left: -1.3rem;
+    left: 50%;
+}
+
+.header-search input {
+    border: 0;
+    border-radius: 0.10rem;
+    position: relative;
+    width: 6.3rem;
+    height: 0.58rem;
+    background: #EBEBEB;
+}
+
+.header-search .scan {
+    font-size: 0.5rem;
+}
+
+.me-top {
+    background-image: linear-gradient(to right, #A7a7a7, #a4a4a4);
+    height: 1.94rem;
+    display: flex;
+    align-items: center;
+}
+
+.top-left {
+    display: flex;
+    flex-wrap: wrap;
+    /*border: 0.01rem solid #000;*/
+    margin-left: 0.34rem;
+}
+
+.top-left .touxiang {
+    height: 1.26rem;
+    width: 1.26rem;
+    border-radius: 50%;
+    border: 0.03rem white solid;
+}
+
+.top-left-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 0.3rem;
+}
+
+.top-left p {
+    width: 2.24rem;
+    font-size: 0.32rem;
+    color: white;
+}
+
+.top-left span {
+    font-size: 0.18rem;
+    /*display: block;*/
+    width: 2.24rem;
+    height: 0.44rem;
+    border-radius: 0.22rem;
+    background: #8f8f8f;
+    color: white;
+    line-height: 0.44rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top-left span .icon-shoucang{
+    display: block;
+    width: 0.24rem;
+    height: 0.24rem;
+    color: white;
+    border-radius: 50%;
+    background-image: linear-gradient(to right ,#2cafff, #1095FF);
+    font-size: 0.1rem;
+    margin-right: 0.11rem;
+    position: relative;
+}
+
+.icon-shoucang:before {
+    display: block;
+    position: absolute;
+    content: "\e67c";
+    width: 0.1rem;
+    height: 0.1rem;
+    top: -0.09rem;
+    left: 0.06rem;
+}
+
+.top-right{
+    /*border: 0.01rem solid #000;*/
+    width: 1.65rem;
+    display: flex;
+    color: white;
+    font-size: 0.26rem;
+    justify-content: space-around;
+    position: relative;
+    margin-left: 1.4rem;
+}
+
+.top-right b{
+    position: absolute;
+    top: 50%;
+    margin-top: -0.06rem;
+    left: -0.1rem;
+    width: 0.12rem;
+    height: 0.12rem;
+    border-radius: 50%;
+    background: #f76c8b;
+}
+
