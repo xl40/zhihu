@@ -1,0 +1,54 @@
+header{
+    height: 1.38rem;
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+header .header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 0.01rem solid #000;*/
+    margin-left: 0.22rem;
+    margin-top: 0.42rem;
+}
+
+header h1{
+    font-size: 0.48rem;
+}
+
+header .header-top div{
+    display: flex;
+    width: 1.6rem;
+    justify-content: space-between;
+    margin-right:0.25rem ;
+}
+header .header-top div span{
+    font-size: 0.66rem;
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    border: 0.01rem solid #666;
+    position: relative;
+    background: #646464;
+}
+
+
+.icon-email:before {
+    color: white;
+    bottom: -0.115rem;
+    left: -0.03rem;
+    position: absolute;
+    display: block;
+    content: "\e676";
+}
+
+
+header .header-top div img{
+    width: 0.6rem;
+    height: 0.6rem;
+    border-radius: 50%;
+    border: 0.01rem solid #666;
+}
