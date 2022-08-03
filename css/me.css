@@ -504,3 +504,20 @@
     color: white;
 }
 
+.add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add p{
+    margin-top: 40px;
+    width: 218px;
+    height: 86px;
+    background: white;
+    color: #666;
+    font-size: 30px;
+    line-height: 86px;
+    text-align: center;
+    border-radius: 43px;
+}
