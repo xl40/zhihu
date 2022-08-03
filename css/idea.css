@@ -1,5 +1,5 @@
 header{
-    height: 1.38rem;
+    /*height: 1.38rem;*/
     display: flex;
 
     flex-direction: column;
@@ -19,13 +19,13 @@ header h1{
     font-size: 0.48rem;
 }
 
-header .header-top div{
+header .header-top > div{
     display: flex;
     width: 1.6rem;
     justify-content: space-between;
     margin-right:0.25rem ;
 }
-header .header-top div span{
+header .header-top > div span{
     font-size: 0.66rem;
     width: 0.6rem;
     height: 0.6rem;
@@ -46,9 +46,56 @@ header .header-top div span{
 }
 
 
-header .header-top div img{
+header .header-top > div img{
     width: 0.6rem;
     height: 0.6rem;
     border-radius: 50%;
     border: 0.01rem solid #666;
+}
+
+
+header .header-menu{
+    margin-left: 0.22rem;
+    height: 0.96rem;
+    margin-top: 0.44rem;
+    display: flex;
+    overflow: scroll;
+}
+
+.header-menu-item{
+    flex: 1;
+    margin-right: 0.2rem;
+}
+
+.header-menu-item > div{
+    width: 6.5rem;
+    height: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header-menu-item > div img{
+    width: 126px;
+    height: 94px;
+    border-radius: 5px;
+    margin-right: 20px;
+    background: #55a532;
+}
+
+.header-menu-item > div > div{
+    display: flex;
+    flex-direction: column;
+}
+.header-menu-item > div > div b{
+    font-size: 18px;
+    color: #419ef3;
+}
+.header-menu-item > div > div p{
+    font-size: 26px;
+
+}
+.header-menu-item > div > div span{
+    font-size: 22px;
+    color: #999999;
 }
