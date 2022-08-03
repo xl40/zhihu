@@ -13,3 +13,79 @@ nav p:nth-child(4)::after{
     left: 0;
     background: black;
 }
+
+main{
+    overflow: scroll;
+}
+
+main section > img{
+    height: 420px;
+    background-image: linear-gradient(to top,burlywood,#0084ff);
+}
+
+main section article{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+
+}
+
+article > p {
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.bottom{
+    margin-top: 20px;
+    height: 47px;
+    padding-inline: 20px;
+    /*border: 1px solid #000;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom div{
+    /*border: 1px solid #000;*/
+}
+
+.item{
+    display: flex;
+    align-items: center;
+}
+
+.item span{
+    font-size: 26px;
+    color: #666;
+}
+
+.item i{
+    margin-left: 10px;
+    color: #666;
+    font-size: 26px;
+}
+
+.item:nth-child(1){
+    width: 375px;
+}
+
+.bottom img{
+    width: 47px;
+    height: 47px;
+    background: #00d249;
+    border-radius: 50%;
+}
+
+main{
+    overflow: scroll;
+}
+
+section{
+    background: white;
+    margin-top: 20px;
+}
+
+.bottom{
+    margin-bottom: 10px;
+}
