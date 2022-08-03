@@ -1,0 +1,29 @@
+nav{
+    border-block: 1px solid #666666;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+nav p{
+    color: #999;
+    font-weight: bold;
+    font-size: 28px;
+    flex: 1;
+    text-align: center;
+}
+
+nav p:nth-child(1){
+    color: black;
+    position: relative;
+}
+
+nav p:nth-child(1)::after{
+    content: '';
+    width: 188px;
+    height: 4px;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    background: black;
+}

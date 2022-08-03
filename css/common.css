@@ -14,6 +14,21 @@ input,textarea{outline: 0;}
 body{display: flex; flex-direction: column;background: #EBEBEB;}
 
 
+nav{
+    border-block: 1px solid #666666;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background: white;
+}
+nav p{
+    color: #999;
+    font-weight: bold;
+    font-size: 28px;
+    flex: 1;
+    text-align: center;
+}
+
 
 .header-search {
     background: white;
