@@ -3,7 +3,7 @@ header{
     display: flex;
 
     flex-direction: column;
-
+    position: relative;
 }
 
 header .header-top{
@@ -60,6 +60,7 @@ header .header-menu{
     margin-top: 0.44rem;
     display: flex;
     overflow: scroll;
+    margin-bottom: 0.86rem;
 }
 
 .header-menu-item{
@@ -76,10 +77,10 @@ header .header-menu{
 }
 
 .header-menu-item > div img{
-    width: 126px;
-    height: 94px;
-    border-radius: 5px;
-    margin-right: 20px;
+    width: 1.26rem;
+    height: 0.94rem;
+    border-radius: 0.05rem;
+    margin-right: 0.2rem;
     background: #55a532;
 }
 
@@ -88,14 +89,30 @@ header .header-menu{
     flex-direction: column;
 }
 .header-menu-item > div > div b{
-    font-size: 18px;
+    font-size: 0.18rem;
     color: #419ef3;
 }
 .header-menu-item > div > div p{
-    font-size: 26px;
+    font-size: 0.26rem;
 
 }
 .header-menu-item > div > div span{
-    font-size: 22px;
+    font-size: 0.22rem;
     color: #999999;
+}
+
+.point{
+    width: 7.1rem;
+    height: 0.95rem;
+    border: 0.01rem solid #999;
+    position: absolute;
+    left: 50%;
+    margin-left: -3.55rem;
+    bottom: -0.45rem;
+    background: white;
+}
+
+.bloggers{
+    height: 7.3rem;
+    background: white;
 }
