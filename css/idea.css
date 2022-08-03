@@ -292,6 +292,9 @@ header .header-menu{
 .content-item{
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    border-bottom: 2px #666666 dotted;
 }
 
 .content-item-top{
@@ -299,7 +302,6 @@ header .header-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #000;
 }
 
 .content-item-top img{
@@ -370,5 +372,4 @@ header .header-menu{
     position: fixed;
     bottom: 150px;
     right: 37px;
-    content: "\e680";
 }
