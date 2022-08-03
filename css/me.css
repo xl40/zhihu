@@ -522,34 +522,4 @@
     border-radius: 0.43rem;
 }
 
-footer{
-    height: 0.98rem;
-    display: flex;
-    color: #666;
-    position: fixed;
-    bottom: 0;
-    width: 7.5rem;
-    background: white;
-    padding-bottom: 0.2rem;
-}
-
-footer div{
-    flex: 1;
-    display: flex;
-    border-top: 0.01rem solid #d3d3d3;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    font-size: 0.44rem;
-}
-
-footer div p{
-    position: absolute;
-    bottom: 0;
-    font-size: 0.18rem;
-}
-
-.current{
-    color: #2cafff;
-}
 
