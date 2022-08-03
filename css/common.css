@@ -93,6 +93,14 @@ footer{
     padding-bottom: 0.2rem;
 }
 
+nav a{
+    color: #000;
+}
+
+footer a{
+    color: #666666;
+}
+
 footer div{
     flex: 1;
     display: flex;
