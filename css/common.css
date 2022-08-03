@@ -112,3 +112,8 @@ footer div p{
 .current{
     color: #2cafff;
 }
+
+footer a{
+    position: relative;
+}
+
