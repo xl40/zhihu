@@ -283,7 +283,6 @@ header .header-menu{
 
 .content{
     height: 5rem;
-    padding-inline: 0.22rem;
     display: flex;
     flex-direction: column;
     border-bottom: 0.4rem;
@@ -292,9 +291,11 @@ header .header-menu{
 .content-item{
     display: flex;
     flex-direction: column;
-    margin-bottom: 0.3rem;
     padding-bottom: 0.5rem;
     border-bottom: 0.02rem #666666 dotted;
+    background: white;
+    padding-inline:0.22rem;
+    padding-top: 0.2rem;
 }
 
 .content-item-top{
