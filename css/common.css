@@ -15,7 +15,7 @@ body{display: flex; flex-direction: column;background: #EBEBEB;}
 
 
 nav{
-    border-block: 1px solid #666666;
+    border-block: 1px solid #dbdbdb;
     height: 70px;
     display: flex;
     align-items: center;

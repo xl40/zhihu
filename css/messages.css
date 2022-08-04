@@ -112,17 +112,66 @@ main .content{
 }
 
 .content-item .left{
-    width: 0.9rem;
+    position: relative;
+    width: 1.1rem;
     height: 0.9rem;
-    background: #666666;
     margin-right: 0.2rem;
+
+    border-radius: 50%;
+}
+
+.content-item:nth-child(2) .left{
+    background: #1482ed;
+}
+
+.content-item .left span{
+    position: relative;
+    color: #fff;
+    font-size: 0.5rem;
+}
+
+.content-item .left img{
+    width: 0.62rem;
+    height: 0.62rem;
+    border-radius: 50%;
+    border: 0.02rem solid #fff;
+}
+
+.content-item .left img:nth-child(1){
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.content-item .left img:nth-child(2){
+    border-radius: 50%;
+    position: absolute;
+    left: 0.25rem;
+    top: 0.25rem;
+}
+
+.icon-yinxiangbiji:before {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.2rem;
+}
+
+.content-item .left:after {
+    width: 0.15rem;
+    content: '';
+    height: 0.15rem;
+    border-radius: 50%;
+    background: red;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .content-item .right{
     width: 100%;
     display: flex;
     flex-direction: column;
-    border-bottom: solid 1px #666666;
+    border-bottom: solid 0.01rem #666666;
 }
 
 .content-item .right p{
@@ -132,15 +181,15 @@ main .content{
 
 .content-item .right span{
     font-size: 0.30rem;
-    line-height: 40px;
-    margin-bottom: 10px;
+    line-height: 0.4rem;
+    margin-bottom: 0.1rem;
 }
 
 .content-item .right b{
     font-size: 0.22rem;
-    line-height: 40px;
+    line-height: 0.4rem;
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 0.2rem;
 }
 
 

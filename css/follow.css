@@ -14,7 +14,6 @@ nav p:nth-child(1)::after{
 }
 
 .top{
-    border: 0.01rem solid #000;
     height: 3.1rem;
     display: flex;
     flex-direction: column;
@@ -77,6 +76,7 @@ nav p:nth-child(1)::after{
 
 
 .bloggers{
+    margin-top: 20px;
     /*height: 7.3rem;*/
     background: white;
     display: flex;
