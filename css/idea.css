@@ -30,7 +30,7 @@ header .header-top > div span{
     width: 0.6rem;
     height: 0.6rem;
     border-radius: 50%;
-    border: 0.01rem solid #666;
+    border: 0.01rem solid #dbdbdb;
     position: relative;
     background: #646464;
 }
