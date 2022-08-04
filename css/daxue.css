@@ -1,55 +1,55 @@
-header{
+header {
     display: flex;
     flex-direction: column;
     position: relative;
     background: white;
 }
 
-header .header-top{
+header .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 0.2rem;
 }
 
-.header-top-left{
-    margin-left: 40px;
+.header-top-left {
+    margin-left: 0.4rem;
     display: flex;
-    width: 315px;
+    width: 3.15rem;
     justify-content: space-between;
 }
 
 
-.header-top-left p{
+.header-top-left p {
     display: flex;
     flex-direction: column;
 }
 
-.header-top-left p span{
+.header-top-left p span {
     color: #e6ac73;
-    font-size: 28px;
+    font-size: 0.28rem;
 }
 
-.header-top-left p b{
-    font-size: 20px;
+.header-top-left p b {
+    font-size: 0.2rem;
     color: #666;
 }
 
 
-.header-top-left img{
-    width: 72px;
-    height: 72px;
+.header-top-left img {
+    width: 0.72rem;
+    height: 0.72rem;
     border-radius: 50%;
 }
 
-.header-top-right{
+.header-top-right {
     display: flex;
     width: 1.6rem;
     justify-content: space-between;
-    margin-right:0.50rem ;
+    margin-right: 0.50rem;
 }
 
-.header-top-right > span{
+.header-top-right > span {
     font-size: 0.66rem;
     width: 0.6rem;
     height: 0.6rem;
@@ -69,31 +69,179 @@ header .header-top{
     content: "\e676";
 }
 
-nav{
+nav {
     display: flex;
 }
 
-.nav-daxue{
+.nav-daxue {
     border-top: none;
-    border-bottom: 1px slategrey solid;
+    border-bottom: 0.01rem slategrey solid;
 }
 
-nav p{
+nav p {
     flex: 1;
 }
 
-nav p:nth-child(1){
+nav p:nth-child(1) {
     color: #e6ac73;
     position: relative;
 }
 
-nav p:nth-child(1)::after{
+nav p:nth-child(1)::after {
     content: '';
-    width: 70px;
-    height: 4px;
+    width: 0.7rem;
+    height: 0.04rem;
     background: #e6ac73;
     position: absolute;
-    bottom: -15px;
+    bottom: -0.15rem;
     left: 50%;
-    margin-left: -35px;
+    margin-left: -0.35rem;
+}
+
+.banner {
+    background: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    border-radius: 0.1rem;
+}
+
+
+.nav {
+    /*margin-top: 0.2rem;*/
+    background: white;
+    height: 3.58rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.nav div {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center
+}
+
+.nav div span {
+    line-height: 0.6rem;
+    font-size: 0.36rem;
+}
+
+.nav div:nth-child(1) span {
+    background: #55a532;
+}
+
+.nav div:nth-child(2) span {
+    background: #2cafff;
+}
+
+.nav div:nth-child(3) span {
+    background: #ebc57a;
+}
+
+.nav div:nth-child(4) span {
+    background: #4e76e1;
+}
+
+.nav div:nth-child(5) span {
+    background: #07c0f3;
+}
+
+.nav div:nth-child(6) span {
+    background: #0089ff;
+}
+
+.nav div:nth-child(7) span {
+    background: #00d249;
+}
+
+.nav div:nth-child(8) span {
+    background: #e6ac73;
+}
+
+.nav div:nth-child(9) span {
+    background: #00d249;
+}
+
+.nav div:nth-child(10) span {
+    background: #07c0f3;
+}
+
+.nav div .iconfont {
+    width: 0.58rem;
+    height: 0.58rem;
+    border-radius: 0.05rem;
+}
+
+.nav i {
+    margin-top: 0.14rem;
+    font-size: 0.22rem;
+}
+
+.tuijian {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.4rem;
+    padding-top: 48px;
+    background: white;
+    border-top: 1px #666666 solid;
+}
+
+.tuijian-item {
+    margin-top: 40px;
+    display: flex;
+}
+
+.tuijian-item img {
+    margin-right: 0.2rem;
+}
+
+.tuijian-item p:nth-child(2) {
+    flex: 1.5;
+    width: 3.2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tuijian-item p:nth-child(2) span {
+    font-size: 0.3rem;
+}
+
+.tuijian-item p:nth-child(2) b {
+    margin-top: 0.2rem;
+    font-size: 0.26rem;
+}
+
+.tuijian-item p:nth-child(3) {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.tuijian-item p:nth-child(3) b {
+    margin-top: 0.4rem;
+    width: 1.56rem;
+    height: 0.6rem;
+    background: #f6f6f6;
+    color: #e6ac73;
+    font-size: 0.3rem;
+    line-height: 0.60rem;
+    text-align: center;
+    border-radius: 0.3rem;
+}
+
+.tuijian-item p:nth-child(3) i {
+    margin-top: 0.1rem;
+    color: #666;
 }
